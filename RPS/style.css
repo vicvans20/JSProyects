@@ -1,0 +1,152 @@
+h1{
+	text-align:center;
+	font-family:Times,serif;
+	margin:auto;
+	font-size:30px;
+}
+
+h1:hover{
+	color:#9845AF;
+}
+
+#header{
+	/*border:10px solid #A28CFD;*/
+	width:60%;
+	height:50px;
+	margin:auto;
+	border-radius:30%;
+	background-color:#A28CFD;
+}
+
+#background{
+    background-color:#606383;
+    opacity:0.5;
+    border-radius:10%;
+    width:60%;
+    height:350px;
+    margin:auto;
+    background-image:url('rps.jpg');
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center;
+    background-attachment:fixed;
+}
+
+.option{
+    position:relative;
+	border-style:groove;
+	width:70px;
+	height:70px;
+	border-radius:100%;
+	opacity: 0.5;
+	margin-top:15px;
+}
+
+/*Central DIV info*/
+#center{
+    margin:auto;
+    position:relative;
+	border-style:ridge;
+	width:70px;
+	height:70px;
+	border-radius:100%;
+	opacity: 0.5;
+	margin-top:15px;
+}
+
+#cent{
+    margin:auto;
+    text-align:center;
+    font-family:Times,Verdana;
+}
+
+.rock{
+    background-color:#AABCFF;
+    background-image:url('rock.png');
+    background-size:contain;
+}
+
+.paper{
+    background-color:#A0EF59;
+    background-image:url('paper.png');
+    background-size:contain;
+}
+
+.scissor{
+    background-color:#FE4E37;
+    background-image:url('scissors.png');
+    background-size:contain;
+}
+
+#rock{
+    float:left;
+    margin-left:70px;
+    
+}
+
+#paper{
+    float:left;
+    margin-left:10px;
+
+}
+
+#scissor{
+    /*display:block;*/
+    /*clear:right;*/
+    margin-left:115px;
+    float:left
+    
+}
+
+#p2paper{
+    float:right;
+    margin-right:70px;
+}
+
+#p2rock{
+    float:right;
+    margin-right:10px;
+}
+
+/*AWFUL*/
+#p2scissor{
+   float:right;
+   margin-right:115px;
+}
+
+#message{
+	width:60%;
+	height:25px;
+	background: #D5FAED;
+	margin:auto;
+	border-radius:5%;
+	text-align:center;
+}
+
+.item{
+    color:red;
+    position:relative;
+}
+
+.divisor{
+    display:block;
+    clear:both;
+}
+#p1{
+    float:left;
+    margin-left:110px;
+    margin-top:50px;
+}
+#p2{
+    float:right;
+    margin-right:110px;
+    margin-top:20px;
+}
+.title{
+    border-style:groove;
+    width:70px;
+    height:10px;
+    background-color:#FF4E00;
+    font-size:10px;
+    text-align:center;
+}
